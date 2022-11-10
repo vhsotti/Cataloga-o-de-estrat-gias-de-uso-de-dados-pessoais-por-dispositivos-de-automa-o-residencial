@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+header{
+	text-align: center;
+	font-family: 'Gulzar', serif;
+	font-family: 'Oswald', sans-serif;
+	height: 150px;
+	background-image: linear-gradient(#C0C0C0, black);
+	font-size: 22px;
+
+}
+
+h3 {
+	font-family: 'Gulzar', serif;
+	font-family: 'Oswald', sans-serif;
+}
+
+header h1{
+		padding: 15px;
+}
+
+button {
+	padding: 4px;
+	text-decoration: none;
+	border: none;
+	background-color: orange;
+	border-radius: 4px;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+button:hover{
+	padding: 5px;
+	cursor: pointer;
+}
+
+section ul li button {
+	padding: 5px;
+	width: 200px;
+}
+section ul {
+	text-align: center;
+}
+
+section ul li{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.logo{
+	text-decoration: none;
+	color: black;
+}
+
+.caixa{
+	width: 940px;
+	margin: 0 auto;
+}
+
+main ul{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.caixa ul li img{
+	margin: 0 auto;
+	display: block;
+}
+
+/*Isso aqui é usado na página principal*/
+
+.listacomplexa{
+	height: 160px;
+	margin-left: 30px;
+	border: 3px solid black;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Fim da Página principal*/
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
